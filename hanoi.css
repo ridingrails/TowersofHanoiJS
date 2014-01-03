@@ -1,0 +1,27 @@
+.pile {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  background-color: gray;
+}
+
+.disc {
+  padding-bottom: 0px;
+  margin: 0 auto;
+  height: 50px;
+  background-color: purple;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.size-1 {
+  width: 60px;
+}
+
+.size-2 {
+  width: 120px;
+}
+
+.size-3 {
+  width: 200px;
+}
