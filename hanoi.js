@@ -53,15 +53,14 @@
 
     if (game.move(start,end)) {
       console.log(game.towers);
+      if (game.isWon()) {
+        console.log("You win!");
+      }
+      return true;
     } else {
       console.log("Invalid move!")
+      return false;
     }
-
-    if (game.isWon()) {
-      console.log("You win!");
-    } //else  {
-//       game.run();
-//     }
   }
 
 
